@@ -18,7 +18,7 @@ function createGrid(input) {
       .padStart(6, "0");
     const square = document.createElement("div");
     square.addEventListener("mouseover", () => {
-      square.style.backgroundColor = "#" + rainbowColor;
+      square.style.backgroundColor = "blue";
     });
     square.classList.add("box");
     square.style.width = gridSize - 2 + "px";
